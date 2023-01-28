@@ -1,8 +1,9 @@
+#ingresar la lista de numeros
 list_numeros=[1,2,2,5,6,7]
 list_numeros_sin_repetir=[]
-
+#el programa identifica que numeros estan repetidos y hace la nueva lista
 for n in list_numeros:
     if n not in list_numeros_sin_repetir:
         list_numeros_sin_repetir.append(n)
-
+#muestra la nueva lista sin repetir
 print("numeros sin repetir :",list_numeros_sin_repetir)
